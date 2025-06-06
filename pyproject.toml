@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apisix_python_converter"
+version = "0.0.1"
+authors = [{name = "s1nju" , email = "aminebouhaik527@gmail.com"}]
+description = "this is a python package to manage apaache apisix wit pre defined functions ready to serve" 
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = []
