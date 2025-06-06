@@ -138,5 +138,4 @@ except ConnectionError as e:
 5. Open a Pull Request
 
 ## License
-
 This project is licensed under the Apache License - see the LICENSE file for details.

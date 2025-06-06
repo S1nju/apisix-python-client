@@ -1,12 +1,19 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "apisix_python_converter"
-version = "0.0.1"
-authors = [{name = "s1nju" , email = "aminebouhaik527@gmail.com"}]
-description = "this is a python package to manage apaache apisix wit pre defined functions ready to serve" 
-readme = "README.md"
+name = "apisix-python-client"
+version = "0.1.0"
+description = "A Python client library for Apache APISIX Admin and Control APIs"
+authors = [
+    { name="amine bouhaik", email="aminebouhaik527@gmail.com" }
+]
 license = { file = "LICENSE" }
-dependencies = []
+readme = "README.md"
+requires-python = ">=3.7"
+
+dependencies = [
+    "requests>=2.25.0",
+]
+
